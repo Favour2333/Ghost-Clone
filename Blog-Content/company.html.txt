@@ -1,0 +1,909 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Content Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <img src="images/it-logo-2.png" alt="IT-logo">
+            <p>ITCOM</p>
+             <!-- Menu Bar Icon with Cancel Icon -->
+          <div class="menu-icon">
+            <div class="bar"></div>
+            <div class="bar"></div>
+           <div class="bar"></div>
+         </div>
+         <div class="menu-cancel-btn">
+            <i class="fas fa-times cancel-btn" id="cancel-btn-menu"></i>
+         </div>
+            <div class="list-items">
+                <a id="pro-btn" href="#">Products</a>
+                <a id="solution-btn" href="#">Solutions</a>
+                <a id="support-btn" href="#">Support and Services</a>
+                <a id="company-btn" href="#">Company</a>
+                <a id="how-btn" href="#">How To Buy</a>
+            </div>
+            <div class="portal">
+                 <button  id="click-btn" href="">Select<i class="fas fa-chevron-down"></i></button>   
+             <div class="portal-container">   
+                 <div class="portal-wrapper">
+                    <i class="fas fa-times" id="cancel-btn"></i>
+                    <a href="">Go Portal</a>
+                    <a href="">Register</a>
+                    <div class="portal-password">
+                        <a href="">Forgot username/Password</a>
+                    </div>
+                 </div>  
+              </div>
+            <div class="portal-1">
+               <button id="click-btn-1" href="">English<i class="fas fa-chevron-down"></i></button>  
+            <div class="portal-container-1">   
+                <div class="portal-wrapper-1">
+                       <i class="fas fa-times" id="cancel-btn-1"></i>
+                       <a href="">中国</a>
+                       <a href="">日本</a>
+                 </div>
+           </div>
+           <div class="search-container">
+            <input type="search" placeholder="search" class="search-input">
+            <i class="fas fa-search search-icon"></i>
+          </div>
+        </div>
+       
+
+   <!-- Product Clickable -->
+     <div class="products-click">
+                    <div class="products-container">
+                      <div class="pro-container">
+                       <i class="fas fa-times cancel-btn" id="pro-cancel-btn"></i>
+                       <div class="product-search">
+                        <input type="search" placeholder="search" class="search-input">
+                        <i class="fas fa-search search-icon"></i>
+                       </div>
+                       <div class="pro-content">
+                            <p class="pro-title">Products</p>
+                            <a class="active"></a>
+                        <a  href="#" id="pro-EL">
+                            Storage and Systems <i class="fas fa-plus"></i>
+                       </a>   
+                       <a href="#" id="wireless-El">
+                            Wireless <i class="fas fa-plus"></i>
+                       </a>
+                       
+                       <a href="#" id="Connect">
+                            Wired Connectivity <i class="fas fa-plus"></i>
+                       </a>
+                       
+                       <a href="#" id="Optical">
+                            Optical Products <i class="fas fa-plus"></i>
+                       </a>
+                       
+                       <a href="#" id="IT-com">
+                           ITCOM Software <i class="fas fa-plus"></i>
+                       </a>
+                       
+                     </div>
+                     </div>
+                </div>
+        </div>
+    </div>
+        
+        <!-- Solution Clickable -->
+        
+          <div class="solution-click">
+            <div class="solution-container">
+              <div class="sol-container">
+               <i class="fas fa-times cancel-btn" id="sol-cancel-btn"></i>
+               <div class="solution-search">
+                <input type="search" placeholder="search" class="search-input">
+                <i class="fas fa-search search-icon"></i>
+               </div>
+               <div class="sol-content">
+                    <p class="sol-title">Solutions</p>  
+               <a href="#" id="IT-El">
+                  ITCOMband and wired networking <i class="fas fa-plus"></i>
+               </a>
+               
+               <a href="#" id="Data">
+                  Data Center  <i class="fas fa-plus"></i>
+               </a>
+               
+               <a href="#" id="En-security">
+                Enterprise Security <i class="fas fa-plus"></i>
+               </a>
+               
+               <a href="#" id="En-storage">
+                Enterprise Storage <i class="fas fa-plus"></i>
+               </a>
+               
+               <a href="#" id="En-software">
+                Enterprise Software Solutions <i class="fas fa-plus"></i>
+               </a>
+             </div>
+             </div>
+        </div>
+        </div>
+        </div>
+        
+        <!-- support and services clickable -->
+        
+        <div class="support-click">
+            <div class="support-container">
+              <div class="sup-container">
+               <i class="fas fa-times cancel-btn" id="sup-cancel-btn"></i>
+               <div class="sup-search">
+                <input type="search" placeholder="search" class="search-input">
+                <i class="fas fa-search search-icon"></i>
+               </div>
+               <div class="sup-content">
+                    <p class="sup-title">Support and Services</p>  
+               <a href="#" id="Document-El">
+                  Document, Download and Support <i class="fas fa-plus"></i>
+               </a>
+               
+               <a href="#" id="Choose">
+                  Choose Your Product  <i class="fas fa-plus"></i>
+               </a>
+               
+               <a href="#" id="Professional">
+                  Professional Services <i class="fas fa-plus"></i>
+               </a>
+               
+               <a href="#" id="Education">
+                  Education Services <i class="fas fa-plus"></i>
+               </a>
+               
+               <a href="#" id="Symantec">
+                  Symantec Security Center <i class="fas fa-plus"></i>
+               </a>
+        
+               <a href="#" id="Software">
+                  Software Resources <i class="fas fa-plus"></i>
+               </a>
+             </div>
+             </div>
+        </div>
+        </div>
+        </div>
+        
+        <!-- Company Clickable -->
+        
+        <div class="company-click">
+            <div class="company-container">
+              <div class="com-container">
+               <i class="fas fa-times cancel-btn" id="com-cancel-btn"></i>
+               <div class="com-search">
+                <input type="search" placeholder="search" class="search-input">
+                <i class="fas fa-search search-icon"></i>
+               </div>
+               <div class="com-content">
+                    <p class="com-title">Company</p>  
+               <a href="#" id="About">
+                  About Us <i class="fas fa-plus"></i>
+               </a>
+               
+               <a href="#" id="Blog">
+                  Blogs  <i class="fas fa-plus"></i>
+               </a>
+        
+               <a href="#" id="Contact">
+                  Contact Us <i class="fas fa-plus"></i>
+               </a>
+             </div>
+             </div>
+        </div>
+        </div>
+        </div>
+        
+        <!-- How-to-buy Clickable -->
+        
+        <div class="how-click">
+            <div class="how-container">
+              <div class="ho-container">
+               <i class="fas fa-times cancel-btn" id="ho-cancel-btn"></i>
+               <div class="ho-search">
+                <input type="search" placeholder="search" class="search-input">
+                <i class="fas fa-search search-icon"></i>
+               </div>
+               <div class="ho-content">
+                    <p class="ho-title">How to buy</p>  
+               <a href="#" id="Hardware">
+                  Hardware <i class="fas fa-plus"></i>
+               </a>
+             </div>
+             </div>
+        </div>
+        </div>
+        </div>
+        
+        
+        <!-- Products click Element -->
+        
+            <div class="pro-El">
+                <div class="pro-El-container">
+                    <div class="pro-full-El">
+                        <i id="close-btn" class="fas fa-arrow-left back-btn"></i>
+                        <a class="all" href="#">All Products</a>
+                        <p class="El-title">Storage and System</p>
+                        <div class="El-content">
+                           <a href="" class="El-a-title">
+                               storage Adapter, contollers and ICs
+                           </a>
+                           <div class="El-text">
+                               <a href="">Host Bus Adapter</a>
+                               <a href="">Fibre Channel Host Bus Adapters</a>
+                               <a href="">RAID Control Cards</a>
+                               <a href="">NVMe Switch Adapters</a>
+                               <a href="">RAID-on-Chips ICs (ROCs)</a>
+                               <a href="">SAS/SATA Storage I/O Controllers (IOCs)</a>
+                               <a href="">Fibre Channel</a>
+                               <a href="">SAS Expanders</a>
+                               <a href="">Hard Disk Drive</a>
+                           </div>
+                           <a href="" class="El-a-title-1">
+                               Fibre Channel Networking
+                           </a>
+                           <div class="El-text-1">
+                                <a href="">Blades</a>
+                                <a href="">Switch</a>
+                                <a href="">Extension</a>
+                                <a href="">SAN I/O Modules</a>
+                                <a href="">Software</a>
+                                <a href="">Transceivers</a>
+                           </div>
+                           <a href="" class="El-a-title-2">
+                               PCIe Switches and Bridges
+                           </a>
+                           <div class="El-text-2">
+                               <a href="">PCI Express Switches</a>
+                               <a href="">Software Development Kits</a>                                      
+                          </div>
+                        </div>
+                </div>
+            </div>
+        
+            <div class="wire-El">
+                <div class="wire-container">
+                    <div class="wire-full-El">
+                        <i id="wire-close-btn" class="fas fa-arrow-left back-btn"></i>
+                        <a class="all" href="#">All Products</a>
+                        <p class="wire-title">wireless</p>
+                        <div class="wire-content">
+                           <a href="" class="wire-a-title">
+                               Amplifiers, Filters and RF Components
+                           </a>
+                           <div class="wire-text">
+                               <a href="">Demo Boards</a>
+                               <a href="">FBAR Devices</a>
+                               <a href="">RF Front End Modules</a>
+                           </div>
+                           <a href="" class="wire-a-title-1">
+                              SoCs and Processors
+                           </a>
+                           <div class="wire-text-1">
+                                <a href="">GNSS/GPS SoCs</a>
+                                <a href="">Touch Controller ASICSs</a>
+                                <a href="">Wireless LAN/Bluetooth Combo</a>
+                                <a href="">Wireless LAN Infrastructure</a>
+                                <a href="">Inductive Charging ASICs</a>
+                           </div>
+                        </div>
+                </div>
+            </div>
+        
+            <div class="Connect-El">
+                <div class="Connect-container">
+                    <div class="Connect-full-El">
+                        <i id="Connect-close-btn" class="fas fa-arrow-left back-btn"></i>
+                        <a class="all" href="#">All Products</a>
+                        <p class="Connect-title">wired Connectivity</p>
+                        <div class="Connect-content">
+                           <a href="" class="Connect-a-title">
+                               Ethernet Connectivity, Switching and PHYs
+                           </a>
+                           <div class="Connect-text">
+                               <a href=""> Automotive PHYs, Switch and Micro-Controllers</a>
+                               <a href="">Ethernet Network Adapter</a>
+                               <a href="">Ethernet PHYs and PoE</a>
+                               <a href="">Ethernet Switches and Fabric Devices</a>
+                               <a href="">Reference Design</a>
+                           </div>
+                           <a href="" class="Connect-a-title-1">
+                             ITCOMband CPE-Gateway, Infrasture<br> and Set-top Box
+                           </a>
+                           <div class="Connect-text-1">                       
+                            <a href="">Cable ITCOMband</a>
+                            <a href="">Set-top Box Solutions</a>
+                            <a href="">References Design</a>
+                           </div>
+                           <a href="" class="Connect-a-title-2">
+                             Embedded and Networking Processors
+                           </a>
+                           <div class="Connect-text-2">
+                                <a href="">Embedded Processors</a>
+                                <a href="">Secure Processors</a>
+                                <a href="">Communications Processor</a>
+                                <a href="">Knowledge-Based Processor</a>
+                           </div>
+                          <a href="" class="Connect-a-title-3">
+                             Custom Silicon
+                           </a>
+                           <div class="Connect-text-3">
+                                <a href="">ASICs</a>
+                                <a href="">Preamplifiers</a>
+                           </div>
+                        </div>
+                </div>
+            </div>
+            
+            <div class="Optical-El">
+                <div class="Optical-container">
+                    <div class="Optical-full-El">
+                        <i id="Optical-close-btn" class="fas fa-arrow-left back-btn"></i>
+                        <a class="all" href="#">All Products</a>
+                        <p class="Optical-title">Optical Product</p>
+                        <div class="Optical-content">
+                           <a href="" class="Optical-a-title">
+                               Fiber Optical Modules and Components
+                           </a>
+                           <div class="Optical-text">
+                               <a href="">Fast Ethernet and Industrial Fiber Optical</a>
+                               <a href="">Optical Component for ITCOM Networking</a>
+                               <a href="">High-Speed Network Fiber Optical</a>
+                               <a href="">Co-Package Optical</a>
+                           </div>
+                           <a href="" class="Optical-a-title-1">
+                             LEDs and Display
+                           </a>
+                           <div class="Optical-text-1">                       
+                            <a href="">7-Segment LED Displays</a>
+                            <a href="">Auto Focus Auxiliary Flash Lamps</a>
+                            <a href="">ChipLEDs</a>
+                            <a href="">Dot Matrix LED Display</a>
+                            <a href="">High Brightness LEDs</a>
+                            <a href="">High Power LEDs</a>
+                            <a href="">Infrared LEDs</a>
+                            <a href=""> LEDs Light bars</a>
+                            <a href="">Photodiodes and Phototransistors</a>
+                            <a href="">Smart Alphanumeric Display</a>
+                            <a href="">Standard Brightness LEDs</a>
+                            <a href="">Subminature Lamps</a>
+                            <a href="">Surface Mount PLCC LEDs</a>
+                            <a href="">Ultrviolet LEDs</a>
+                           </div>
+                           <a href="" class="Optical-a-title-2">
+                             Motion Control Encoders
+                           </a>
+                           <div class="Optical-text-2">
+                                <a href="">Absolute Encoders</a>
+                                <a href="">Increment Encoders</a>
+                                <a href="">Line Driver ICs</a>
+                                <a href="">Rotary Switches</a>
+                                <a href="">Encoder Coder Wheels</a>
+                                <a href="">Encoder Accessories</a>
+                           </div>
+                          <a href="" class="Optical-a-title-3">
+                             Optocuupiers and Opto-Isolators
+                           </a>
+                           <div class="Optical-text-3">
+                                <a href="">Automotive</a>
+                                <a href="">Hermetic</a>
+                                <a href="">Industrial Plastic</a>
+                                <a href="">Reference Design</a>
+                           </div>
+                            <a href="" class="Optical-a-title-4">
+                             Optical Sensors
+                           </a>
+                           <div class="Optical-text-4">
+                                <a href="">Ambient Light Sensors</a>
+                                <a href="">Integrated Ambient Light and <br> Proximity Sensors</a>
+                                <a href="">Proximity Sensors</a>
+                                <a href="">Time-of-Flight 3D Sensors</a>
+                                <a href="">Silicon Phototmutiplier (SiPM)</a>
+                                <a href="">Spectrometers</a>
+                                <a href="">Pyroelectric Detectors</a>
+                           </div>
+                        </div>
+                </div>
+            </div>
+        
+            <div class="IT-com-El">
+                <div class="IT-com-container">
+                    <div class="IT-com-full-El">
+                        <i id="IT-com-close-btn" class="fas fa-arrow-left back-btn"></i>
+                        <a class="all" href="#">All Products</a>
+                        <p class="IT-com-title">ITcom Software</p>
+                         <div class="IT-com-content">
+                           <a href="" class="IT-com-a-title">
+                               ITCom Software
+                           </a>
+                        </div>
+                     </div>
+                </div>
+           </div>
+           </div>
+        
+           
+           <!-- solution-click Element -->
+         
+           <div class="IT-El">
+            <div class="IT-El-container">
+                <div class="IT-full-El">
+                    <i id="IT-El-close-btn" class="fas fa-arrow-left back-btn"></i>
+                    <a class="all" href="#">All Products</a>
+                    <p class="IT-El-title">ITCOM and Wired Networking</p>
+                     <div class="IT-El-content">
+                       <a href="" class="IT-El-a-title">
+                           ITCOM Access Solutions
+                       </a>
+        
+                       <a href="" class="IT-El-a-title">
+                           ITCOM Wi-Fi Access Points Solutions
+                       </a>
+                    </div>
+                 </div>
+            </div>
+        </div>
+        </div>
+        
+          
+        <div class="Data-El">
+            <div class="Data-El-container">
+                <div class="Data-full-El">
+                    <i id="Data-close-btn" class="fas fa-arrow-left back-btn"></i>
+                    <a class="all" href="#">All Products</a>
+                    <p class="Data-title">Storage and System</p>
+                    <div class="Data-content">
+                       <a href="" class="Data-a-title">
+                           Data Center Solutions
+                       </a>
+        
+                       <a href="" class="Data-a-title">
+                           NVMe Over Fibre Channel
+                       </a>
+        
+                       <a href="" class="Data-a-title">
+                           SAN Automation
+                       </a>
+        
+                       <a href="" class="Data-a-title">
+                           Cloud Scale Networking
+                       </a>
+        
+                       <a href="" class="Data-a-title-1">
+                          SAN Technology
+                       </a>
+                       <div class="Data-text-1">
+                            <a href="">Brocade Gen 7 Technology</a>
+                            <a href="">Brocade Security</a>
+                            <a href="">Brocade FICON Network for <br> Mainframe</a>
+                            <a href="">Modernize Your SAN</a>
+                       </div>
+                 
+                       <div class="Data-text-2">
+                           <a href="">Software-Define Networking</a>
+                           <a href="">Software to Silicon Solutions</a>                                            <a href="">Reduce Data Center Cost</a>
+                           <a href="">Cloud Computing with PCI Switches</a>
+                      </div>
+                    </div>
+            </div>
+        </div>
+        
+        <div class="En-security">
+            <div class="En-security-container">
+                <div class="En-full-El">
+                    <i id="En-close-btn" class="fas fa-arrow-left back-btn"></i>
+                    <a class="all" href="#">All Products</a>
+                    <p class="En-El-title">ITCOM and Wired Networking</p>
+                     <div class="En-El-content">
+                       <a href="" class="En-El-a-title">
+                           ITCOM Access Solutions
+                       </a>
+                    </div>
+                 </div>
+            </div>
+        </div>
+        </div>
+        
+        <div class="En-storage">
+            <div class="En-storage-container">
+                <div class="En-sto-full-El">
+                    <i id="En-sto-close-btn" class="fas fa-arrow-left back-btn"></i>
+                    <a class="all" href="#">All Products</a>
+                    <p class="En-El-title">Enterprise Storage</p>
+                     <div class="En-El-content">
+                       <a href="" class="En-El-a-title">
+                           Fibre Channel in the Enterprise
+                       </a>
+                        <a href="" class="En-El-a-title">
+                          Storage and PCI Express - A Natural <br> Combination
+                       </a>
+                        <a href="" class="En-El-a-title">
+                           End-to-End NVMe
+                       </a>
+                    </div>
+                 </div>
+            </div>
+        </div>
+        </div>
+        
+        <div class="En-software">
+            <div class="En-software-container">
+                <div class="En-soft-full-El">
+                    <i id="En-soft-close-btn" class="fas fa-arrow-left back-btn"></i>
+                    <a class="all" href="#">All Products</a>
+                    <p class="En-El-title">Enterprise Software Solutions</p>
+                     <div class="En-El-content">
+                       <a href="" class="En-El-a-title">
+                           AIOps Solutions
+                       </a>
+                        <a href="" class="En-El-a-title">
+                          DevOps Solutions
+                       </a>
+                        <a href="" class="En-El-a-title">
+                           ValueOps Solutions
+                       </a>
+                        <a href="" class="En-El-a-title">
+                           Communication Service Provider Solutions
+                       </a>
+                    </div>
+                 </div>
+            </div>
+        </div>
+        </div>
+        
+        <!-- support click Element -->
+        
+        <div class="Document-El">
+            <div class="Document-El-container">
+                <div class="Document-full-El">
+                    <i id="Document-close-btn" class="fas fa-arrow-left back-btn"></i>
+                    <a class="all" href="#">All Support and Services</a>
+                    <p class="Document-title">Documents, Downloads and Support</p>
+                     <div class="Document-content">
+                       <a href="" class="Document-a-title">
+                           Customer Support Portal
+                       </a>
+        
+                       <a href="" class="Document-a-title">
+                           Software Documentation
+                       </a>
+        
+                        <a href="" class="Document-a-title">
+                           Support Documents and Download
+                       </a>
+                    </div>
+                 </div>
+            </div>
+        </div>
+        </div>
+        
+        
+        <div class="Choose-El">
+            <div class="Choose-El-container">
+                <div class="Choose-full-El">
+                    <i id="Choose-close-btn" class="fas fa-arrow-left back-btn"></i>
+                    <a class="all" href="#">All Support and Services</a>
+                    <p class="Choose-title">Choose Your Product</p>
+                     <div class="Choose-content">
+                       <a href="" class="Choose-a-title">
+                           knowledge Base
+                       </a>
+        
+                       <a href="" class="Choose-a-title">
+                           MegaRAID and HBAs Support
+                       </a>
+        
+                        <a href="" class="Choose-a-title">
+                           Brocade Global Support
+                       </a>
+        
+                       <a href="" class="Choose-a-title">
+                           BES-Switch Global Support 
+                       </a>
+        
+                        <a href="" class="Choose-a-title">
+                           Emulex Fibre Channel Support
+                       </a>
+                        
+                        <a href="" class="Choose-a-title">
+                           Ethernet Network Adapters
+                       </a>
+        
+                        <a href="" class="Choose-a-title">
+                           PCIs Switches and Bridges
+                       </a>
+        
+                        <a href="" class="Choose-a-title">
+                           Component SOCs or Custom Products
+                       </a>
+        
+                         <a href="" class="Choose-a-title">
+                           Software Support
+                       </a>
+                    </div>
+                 </div>
+            </div>
+        </div>
+        </div>
+        
+        <div class="Professional-El">
+            <div class="Professional-El-container">
+                <div class="Professional-full-El">
+                    <i id="Professional-close-btn" class="fas fa-arrow-left back-btn"></i>
+                    <a class="all" href="#">All Support and Services</a>
+                    <p class="Professional-title">Professional Services</p>
+                     <div class="Professional-content">
+                       <a href="" class="Professional-a-title">
+                           Enterprise Software Professional Services
+                       </a>
+        
+                       <a href="" class="Professional-a-title">
+                           Mainframe Software Professional Services
+                       </a>
+        
+                        <a href="" class="Professional-a-title">
+                           Symantec Professional
+                       </a>
+                    </div>
+                 </div>
+            </div>
+        </div>
+        </div>
+        
+        <div class="Education-El">
+            <div class="Education-El-container">
+                <div class="Education-full-El">
+                    <i id="Education-close-btn" class="fas fa-arrow-left back-btn"></i>
+                    <a class="all" href="#">All Support and Services</a>
+                    <p class="Education-title">Education Services</p>
+                     <div class="Education-content">
+                       <a href="" class="Education-a-title">
+                           Brocade Education
+                       </a>
+        
+                       <a href="" class="Education-a-title">
+                           Enterprise Software Education
+                       </a>
+        
+                        <a href="" class="Education-a-title">
+                           Mainframe Software Education
+                       </a>
+        
+                        <a href="" class="Education-a-title">
+                           Software Education
+                       </a>
+                    </div>
+                 </div>
+            </div>
+        </div>
+        </div>
+        
+        <div class="Symantec-El">
+            <div class="Symantec-El-container">
+                <div class="Symantec-full-El">
+                    <i id="Symantec-close-btn" class="fas fa-arrow-left back-btn"></i>
+                    <a class="all" href="#">All Support and Services</a>
+                    <p class="Symantec-title">Symantec Security Center</p>
+                     <div class="Symantec-content">
+                       <a href="" class="Symantec-a-title">
+                           Product Security Center
+                       </a>
+        
+                       <a href="" class="Symantec-a-title">
+                           Virus Definition & Security Updates
+                       </a>
+        
+                        <a href="" class="Symantec-a-title">
+                           Security Center Archived Publication
+                       </a>
+        
+                        <a href="" class="Symantec-a-title">
+                           Security Acknowledgement
+                       </a>
+        
+                        <a href="" class="Symantec-a-title">
+                           Symantec Vulnerability Response <br> Guidelines
+                       </a>
+        
+                       <a href="" class="Symantec-a-title">
+                           Protection Bulletins
+                       </a>
+                    </div>
+                 </div>
+            </div>
+        </div>
+        </div>
+        
+        <div class="Software-El">
+            <div class="Software-El-container">
+                <div class="Software-full-El">
+                    <i id="Software-close-btn" class="fas fa-arrow-left back-btn"></i>
+                    <a class="all" href="#">All Support and Services</a>
+                    <p class="Software-title"> Software Resources</p>
+                     <div class="Software-content">
+                       <a href="" class="Software-a-title">
+                           SaaS Solutions
+                       </a>
+        
+                       <a href="" class="Software-a-title">
+                           Learning Video Library
+                       </a>
+                    </div>
+                 </div>
+            </div>
+        </div>
+        </div>
+        
+        <!-- Company Elements -->
+        
+        <div class="About-El">
+            <div class="About-El-container">
+                <div class="About-full-El">
+                    <i id="About-close-btn" class="fas fa-arrow-left back-btn"></i>
+                    <p class="About-title"> About Us </p>
+                     <div class="About-content">
+                       <a href="" class="About-a-title">
+                           Company History
+                       </a>
+        
+                       <a href="" class="About-a-title">
+                           Customar Success
+                       </a>
+        
+                        <a href="" class="About-a-title">
+                           Executives
+                       </a>
+        
+                       <a href="" class="About-a-title">
+                           Industry Standards
+                       </a>
+                    </div>
+                 </div>
+            </div>
+        </div>
+        </div>
+        
+        <div class="Blog-El">
+            <div class="Blog-El-container">
+                <div class="Blog-full-El">
+                    <i id="Blog-close-btn" class="fas fa-arrow-left back-btn"></i>
+                    <p class="Blog-title"> Blogs </p>
+                     <div class="Blog-content">
+                       <a href="" class="Blog-a-title">
+                           ITCOM Blogs
+                       </a>
+        
+                       <a href="" class="Blog-a-title">
+                           Software Tech Blogs
+                       </a>
+        
+                        <a href="" class="Blog-a-title">
+                           Symantec Enterprise Blogs
+                       </a>
+                    </div>
+                 </div>
+            </div>
+        </div>
+        </div>
+        
+        <div class="Contact-El">
+            <div class="Contact-El-container">
+                <div class="Contact-full-El">
+                    <i id="Contact-close-btn" class="fas fa-arrow-left back-btn"></i>
+                    <p class="Contact-title"> Contact Us  </p>
+                     <div class="Contact-content">
+                       <a href="" class="Contact-a-title">
+                           Contact Sales
+                       </a>
+                    </div>
+                 </div>
+            </div>
+        </div>
+        </div>
+        
+        <!-- How-to-buy Elements -->
+        
+        <div class="Hardware-El">
+            <div class="Hardware-El-container">
+                <div class="Hardware-full-El">
+                    <i id="Hardware-close-btn" class="fas fa-arrow-left back-btn"></i>
+                    <p class="Hardware-title"> Hardware  </p>
+                     <div class="Hardware-content">
+                       <a href="" class="Hardware-a-title">
+                           Contact Sales
+                       </a>
+        
+                       <a href="" class="Hardware-a-title">
+                           Portal Sales
+                       </a>
+        
+                       <a href="" class="Hardware-a-title">
+                           Terms and Conditions
+                       </a>
+                    </div>
+                 </div>
+            </div>
+        </div>
+        </div>
+
+        <main>
+            <div class="line"></div>
+            <div class="list">
+              <a href="">Company / About Us</a>
+            </div>
+            <div class="list-product">
+                <div class="list-1">
+                <h2>About Us</h2>
+                <p>
+                    ITCOM Inc., a Delaware corporation headquartered in Los Angeles, 
+                    California, is a global infrastructure technology leader built on more than
+                     30 years of innovation,
+                     collaboration and engineering excellence.
+                 </p>
+                 <p>
+                    With roots based in the rich technical heritage of AT&T/Bell Labs,
+                     Lucent and Hewlett-Packard/Agilent, ITCOM focuses on technologies 
+                     that connect our world. Through the combination of industry leaders 
+                     ITCOM, LSI, ITCOM Corporation, Brocade, CA Technologies and Symantec, 
+                     the company has the size, 
+                    scope and engineering talent to lead the industry into the future.
+                 </p>
+                 <p>
+                 ITCOM  is focused on technology leadership and category-leading semiconductor
+                  and infrastructure software solutions. The company is a 
+                 global leader in numerous product segments serving the world’s most successful companies.
+                 </p>
+                 <p>
+                    ITCOM  combines global scale, engineering depth, broad product portfolio diversity, 
+                    superior execution and operational focus to deliver category-leading semiconductor and 
+                    infrastructure software solutions so its
+                    customers can build and grow successful businesses in a constantly changing environment.
+                 </p>
+                 <div class="logo">
+                    <img src="images/it-logo-2.png" alt="IT-logo">
+                    <p class="t-1">ITCOM</p>
+                </div>
+                <div class="warning">
+                    <marquee bgcolor="#ccc" loop="-1" scrollamount="5" width="100%">
+                        This is a clone website for educational purposes only Original design by Ghost or Broadcom, 
+                        Thanks for viewing what I am capable of.
+                    </marquee>
+                </div>
+            </div>
+        </div>  
+        </main>
+
+      <footer>
+            <div class="p-link">
+                <a href="product.html">Product</a>
+                <a href="solutions.html">Solutions</a>
+                <a href="support.html">Support and Services</a>
+                <a href="company.html">Company</a>
+                <a href="how-to-buy.html">How To Buy</a>
+                <div class="text">
+                    <p>
+                        Copyright © 2023 ITCOM.
+                         All Rights Reserved. refers to ITCOM Inc. and/or its subsidiarie</p>
+                    <p>
+                        Accessibility Privacy Site Map
+                        Supplier Responsibility
+                        Terms of Use</p>
+                </div>
+            </div>
+            <div class="s-links">
+                <a class="social-link" href="#"><i class="fab fa-instagram"></i></a>
+                <a class="social-link" href="#"><i class="fab fa-linkedin"></i></a>
+            </div>
+         </footer>
+
+    <script src="script.js"></script>       
+  </header>
+</body>
+</html>

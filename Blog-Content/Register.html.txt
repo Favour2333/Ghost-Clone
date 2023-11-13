@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Content Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <img src="images/it-logo-2.png" alt="IT-logo">
+            <p>ITCOM</p>
+            <!-- Menu Bar Icon with Cancel Icon -->
+          <div class="menu-icon">
+            <div class="bar"></div>
+            <div class="bar"></div>
+           <div class="bar"></div>
+         </div>
+         <div class="menu-cancel-btn">
+            <i class="fas fa-times cancel-btn" id="cancel-btn-menu"></i>
+         </div>
+            <div class="list-items">
+                <a id="pro-btn" href="product.html" target="_blank">Products</a>
+                <a id="solution-btn" href="solutions.html" target="_blank">Solutions</a>
+                <a id="support-btn" href="support.html" target="_blank">Support and Services</a>
+                <a id="company-btn" href="company.html" target="_blank">Company</a>
+                <a id="how-btn" href="how-to-buy.html" target="_blank">How To Buy</a>
+            </div>
+            <div class="buttons-form">
+                <button>Register</button>
+                <button>Login</button>
+            </div>
+            <div class="warning">
+                <marquee bgcolor="#ccc" loop="-1" scrollamount="5" width="100%">
+                    This is a clone website for educational purposes only Original design by Ghost or Broadcom, 
+                    Thanks for viewing what I am capable of.
+                </marquee>
+            </div>
+            
+ </header>
+
+ <main class="main-page">
+    <div class="line"></div>
+    <div class="full-login-El">
+        <div class="side-El">
+            <h3>ITCOM Support Portal</h3>
+            <p>
+                Enhance your skills through multiple self-service <br> 
+                avenues by creating your <span>ITCOM</span> Account
+            </p>
+        </div>
+        <div class="login-El">
+            <h4>User Registration</h4>
+             <p>create your account</p>
+             <label>Email Address</label>
+             <input type="email" placeholder="Your email address" required>
+             <button id="next-reg-btn">Next</button>
+             <h1 id="message"></h1>
+        </div>
+    </div>  
+        </div>
+</main>
+
+
+
+ <footer class="footer-page">
+    <div class="p-link">
+        <a href="product.html">Product</a>
+        <a href="solutions.html">Solutions</a>
+        <a href="support.html">Support and Services</a>
+        <a href="company.html">Company</a>
+        <a href="how-to-buy.html">How To Buy</a>
+        <div class="text">
+            <p>
+                Copyright © 2023 ITCOM.
+                 All Rights Reserved. refers to Broadcom Inc. and/or its subsidiarie</p>
+            <p>
+                Accessibility Privacy Site Map
+                Supplier Responsibility
+                Terms of Use</p>
+        </div>
+    </div>
+    <div class="s-links">
+        <a class="social-link" href="#"><i class="fab fa-instagram"></i></a>
+        <a class="social-link" href="#"><i class="fab fa-linkedin"></i></a>
+    </div>
+ </footer>
+
+ <script src="script.js"></script>
+</body>
+</html>
