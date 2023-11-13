@@ -5661,6 +5661,10 @@ main .list-product .pro-line a:hover{
     width: 240px !important;
 }
 
+   header .logo img {
+    width: 8%;
+}
+
 header .logo .portal {
   width: 240px !important;
 }
@@ -5745,6 +5749,10 @@ main .it-list .it-buttons {
     position: absolute;
     margin-top: -0.8em;
 }  
+
+   header .logo img {
+    width: 8%;
+}
 
  header .products-click .products-container .pro-container {
     position: absolute;
